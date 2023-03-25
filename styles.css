@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 nav {
     text-align: center;
-    font-family: Comfortaa, serif;
+    font-family: "Poppins", sans-serif;
     background-color: lightgrey;
     margin: 0;
     padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 .color-block {
@@ -17,17 +27,18 @@ nav {
     text-align: center;
     padding: 1em;
     margin: 8em 20em 0 20em;
-    font-family: Comfortaa, Serif;
+    font-family: "Poppins", sans-serif;
     border-radius: 1em;
     font-size: 2em;
 }
 
 .btn {
+    display: block;
     background-color: aquamarine;
     text-align: center;
     padding: 1em;
-    font-family: Comfortaa, Serif;
+    font-family: "Poppins", sans-serif;
     border-radius: 1em;
     font-size: 1.5em;
-    margin: 2em 35em 5em 35em;
+    margin: 5em 35em 0 35em;
 }
