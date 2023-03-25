@@ -1,0 +1,33 @@
+nav {
+    text-align: center;
+    font-family: Comfortaa, serif;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 1em;
+}
+
+.color-block {
+    color: white;
+}
+
+.background-thing {
+    display: flex;
+    background-color: #191719;
+    color: lightgrey;
+    text-align: center;
+    padding: 1em;
+    margin: 8em 20em 0 20em;
+    font-family: Comfortaa, Serif;
+    border-radius: 1em;
+    font-size: 2em;
+}
+
+.btn {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 1em;
+    font-family: Comfortaa, Serif;
+    border-radius: 1em;
+    font-size: 1.5em;
+    margin: 2em 35em 5em 35em;
+}
