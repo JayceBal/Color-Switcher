@@ -1,7 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+@media screen and (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        padding: 0.5em;
+    }
+
+    nav h2 {
+        flex: 100%;
+    }
+
+    nav h2 a {
+        display: block;
+        text-align: center;
+    }
+
+    .btn {
+        margin: 0 1em;
+    }
+
+    #background-thing {
+        transform: translateY(3em);
+        font-size: 1.5em;
+    }
+
+}
+
+
 body {
     margin: 0;
+    min-height: 100vh;
 }
 
 nav {
@@ -11,6 +39,7 @@ nav {
     font-family: "Poppins", sans-serif;
     background-color: lightgrey;
     padding: 1em;
+    z-index: 1;
 }
 
 nav h2{
@@ -19,6 +48,13 @@ nav h2{
 
 nav h2 a {
     flex: 50%;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -34,13 +70,15 @@ a:visited {
     color: black;
 }
 
-.background-thing {
-    display: flex;
+#background-thing {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
     background-color: #191719;
     color: lightgrey;
-    text-align: center;
     padding: 1em;
-    margin: 0 25em 0 25em;
     font-family: "Poppins", sans-serif;
     border-radius: 1em;
     font-size: 2em;
@@ -49,7 +87,6 @@ a:visited {
 }
 
 .btn {
-    display: block;
     background-color: aquamarine;
     text-align: center;
     padding: 1em;
@@ -62,9 +99,9 @@ a:visited {
 }
 
 #color-block {
-    background-color: red;
+    background-color: white;
     position: absolute;
     z-index: -1;
-    height: 50.45em;
-    width: 120em;
+    height: 150vh;
+    width: 100vw;
 }
